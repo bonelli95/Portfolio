@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif; /* Utilize uma fonte sem serifa para melhor legibilidade */
+  margin: 0;
+  padding: 0;
+  background-color: #808080; /* Cor de fundo clara e neutra */
+}
+
+header {
+  background-color: #808080; /* Cor de fundo escura para o cabeçalho */
+  color: #fff; /* Cor de texto branca para contraste */
+  padding: 50px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold; /* Texto em negrito para títulos */
+}
+
+nav ul {
+  list-style: none; /* Remover marcadores padrão da lista */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; /* Transformar os itens da lista em elementos em linha */
+  margin-right: 20px; /* Espaçamento entre os itens da navegação */
+}
+
+nav a {
+  color: #fff; /* Cor dos links da navegação */
+  text-decoration: none; /* Remover a decoração padrão dos links */
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #F5F5DC; /* Cor de fundo branca para as seções */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar as seções */
+}
+
+.projeto {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd; /* Borda fina para separar os projetos */
+  border-radius: 5px;
+}
+
+.projeto h3 {
+  margin-top: 0;
+}
+
+.projeto p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #808080; /* Cor de fundo escura para o rodapé */
+  color: #fff; /* Cor de texto branca para contraste */
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+#sobre img {
+  position: absolute;
+  top: 26%;
+  transform: translateY(-50%);
+  right: 20px;
+  border-radius: 30%;
+}
+#sobre {
+  overflow: hidden;
+  min-height: 0px; /* Ajuste o valor de acordo com a altura da sua foto */
+}
