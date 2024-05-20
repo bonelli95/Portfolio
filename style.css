@@ -74,3 +74,13 @@ footer {
   overflow: hidden;
   min-height: 0px;
 }
+
+@media (max-width: 768px) {
+  #sobre img {
+    position: static;
+    transform: none;
+    float: right;
+    margin-top: 20px;
+    width: 50%;
+  }
+}
