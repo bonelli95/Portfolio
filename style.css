@@ -2,11 +2,13 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #808080;
+  background-color: #363636;
+  color: #fff;
+  font-size: 20px;
 }
 
 header {
-  background-color: #808080;
+  background-color: #363636;
   color: #fff;
   padding: 50px;
   text-align: center;
@@ -36,8 +38,10 @@ section {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  background-color: #F5F5DC;
+  background-color: #1C1C1C;
   box-shadow: 0 2px 5px rgba(0.2, 0.2, 0.2, 0.2);
+  color: #fff;
+  font-size: 20px;
 }
 
 .projeto {
@@ -56,7 +60,7 @@ section {
 }
 
 footer {
-  background-color: #808080;
+  background-color: #363636;
   color: #fff; 
   padding: 20px;
   text-align: center;
@@ -64,16 +68,25 @@ footer {
   width: 100%;
 }
 #sobre img {
-  position: absolute;
-  top: 26%;
-  transform: translateY(-50%);
-  right: 20px;
+  grid-column: 1; /* Optional */
   border-radius: 30%;
 }
+
 #sobre {
+  display: grid;
+  grid-template-columns: 1fr auto;
   overflow: hidden;
   min-height: 0px;
+  color: #fff;
+  font-size: 20px;
 }
+
+#sobre p {
+  margin-top: 80px; /* Adjust as needed */
+  margin-left: 40px;
+  font-size: 20px;
+}
+
 
 @media (max-width: 768px) {
   #sobre img {
